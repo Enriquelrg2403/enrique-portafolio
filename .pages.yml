@@ -1,0 +1,105 @@
+# Panel online gratuito: https://app.pagescms.org
+# Sube este archivo .pages.yml a la RAIZ del repositorio de GitHub.
+media:
+  input: media
+  output: /media
+  rename: safe
+  categories: [image]
+content:
+  - name: perfil
+    label: Mi perfil y contacto
+    type: file
+    path: content/perfil.json
+    format: json
+    fields:
+      - name: name
+        label: Nombre profesional
+        type: string
+        required: true
+      - name: role
+        label: Profesión
+        type: string
+      - name: location
+        label: Ciudad y disponibilidad
+        type: string
+      - name: headline
+        label: Título principal
+        type: string
+      - name: intro
+        label: Presentación breve
+        type: text
+      - name: heroImage
+        label: Imagen principal de portada
+        type: image
+      - name: heroDemo
+        label: La imagen principal es de muestra
+        type: boolean
+      - name: aboutTitle
+        label: Título Sobre mí
+        type: string
+      - name: about
+        label: Texto Sobre mí
+        type: text
+      - name: servicesIntro
+        label: Presentación de servicios
+        type: text
+      - name: services
+        label: Servicios que ofrezco
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - name: title
+            label: Nombre del servicio
+            type: string
+          - name: description
+            label: Descripción
+            type: text
+      - name: email
+        label: Correo de contacto
+        type: string
+      - name: whatsapp
+        label: WhatsApp con indicativo de país
+        type: string
+        description: "Ejemplo Perú 519XXXXXXXX (sin signos ni espacios)."
+      - name: instagram
+        label: Instagram (enlace completo)
+        type: string
+      - name: linkedin
+        label: LinkedIn (enlace completo)
+        type: string
+  - name: proyectos
+    label: Mis proyectos y fotografías
+    type: file
+    path: content/proyectos.json
+    format: json
+    list: true
+    fields:
+      - name: type
+        label: Categoría
+        type: select
+        required: true
+        options:
+          values: [Video, Fotografía]
+      - name: title
+        label: Nombre del proyecto
+        type: string
+        required: true
+      - name: subtitle
+        label: Línea descriptiva
+        type: string
+      - name: description
+        label: Descripción extendida
+        type: text
+      - name: url
+        label: Enlace al video o proyecto
+        type: string
+        description: "Puedes pegar un enlace de YouTube, Vimeo, Behance o una página del proyecto."
+      - name: image
+        label: Portada fotográfica
+        type: image
+      - name: demo
+        label: Es una portada de muestra (desactivar al sustituir)
+        type: boolean

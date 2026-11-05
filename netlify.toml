@@ -1,0 +1,9 @@
+# Portafolio HTML estático. Netlify publica la raíz del repositorio.
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/content/*"
+  [headers.values]
+    Cache-Control = "no-cache"
+    X-Content-Type-Options = "nosniff"
