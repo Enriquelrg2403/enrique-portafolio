@@ -1,0 +1,56 @@
+[
+  {
+    "type": "Video",
+    "title": "Bioliffe",
+    "subtitle": "Contenido audiovisual para marca",
+    "description": "Selección de trabajos audiovisuales publicados en mi portafolio anterior.",
+    "url": "https://enriquelarosa123.wixsite.com/portafolio/videosparabioliffe",
+    "image": "/media/campaign.webp",
+    "demo": true
+  },
+  {
+    "type": "Video",
+    "title": "Videos promocionales",
+    "subtitle": "Contenido comercial y digital",
+    "description": "Piezas promocionales y formatos de comunicación visual para proyectos y marcas.",
+    "url": "https://enriquelarosa123.wixsite.com/portafolio/videos-promocionales",
+    "image": "/media/brand.webp",
+    "demo": true
+  },
+  {
+    "type": "Video",
+    "title": "Salvadora Lima 10",
+    "subtitle": "Storytelling audiovisual",
+    "description": "Proyecto de storytelling incluido en mi portafolio de realización audiovisual.",
+    "url": "https://enriquelarosa123.wixsite.com/portafolio/storytelling-salvadora-lima-10",
+    "image": "/media/documental.webp",
+    "demo": true
+  },
+  {
+    "type": "Fotografía",
+    "title": "Fotografía de retrato",
+    "subtitle": "Retratos y mirada editorial",
+    "description": "Selección de retratos de mi galería fotográfica.",
+    "url": "https://enriquelarosa123.wixsite.com/portafolio/fotografia-de-retrato",
+    "image": "/media/hero.webp",
+    "demo": true
+  },
+  {
+    "type": "Fotografía",
+    "title": "Otra mirada",
+    "subtitle": "Proyecto documental personal",
+    "description": "Serie fotográfica documental de mi portafolio personal.",
+    "url": "https://enriquelarosa123.wixsite.com/portafolio/proyecto-personal-otra-mirada",
+    "image": "/media/documental.webp",
+    "demo": true
+  },
+  {
+    "type": "Fotografía",
+    "title": "Fotografía de conciertos",
+    "subtitle": "Eventos y momentos en vivo",
+    "description": "Fotografía de conciertos y cobertura de experiencias.",
+    "url": "https://enriquelarosa123.wixsite.com/portafolio/fotografia",
+    "image": "/media/eventos.webp",
+    "demo": true
+  }
+]
