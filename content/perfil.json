@@ -4,14 +4,10 @@
   "location": "Lima, Perú · Disponible para proyectos",
   "headline": "HISTORIAS QUE SE VEN. MARCAS QUE SE SIENTEN.",
   "intro": "Creo películas de marca, piezas audiovisuales y fotografías con intención. Del concepto a la entrega, transformo ideas en imágenes que conectan.",
+  "heroImage": "/media/img9217jpg.jpeg",
+  "heroDemo": true,
   "aboutTitle": "Una mirada creativa. Un resultado profesional.",
   "about": "Soy Enrique La Rosa, realizador audiovisual y fotógrafo formado en Comunicación Audiovisual. Me interesa encontrar el lenguaje visual que mejor representa cada historia, desde una campaña para redes hasta un retrato o una pieza documental. Trabajo la narrativa, la luz, el ritmo y el detalle para crear imágenes con personalidad.",
-  "email": "",
-  "whatsapp": "",
-  "instagram": "",
-  "linkedin": "",
-  "heroImage": "/media/hero.webp",
-  "heroDemo": true,
   "servicesIntro": "Colaboro con marcas, empresas y equipos creativos para desarrollar contenido visual pensado para cada objetivo y cada plataforma.",
   "services": [
     {
@@ -30,5 +26,7 @@
       "title": "Contenido para redes",
       "description": "Videos verticales, reels y materiales digitales adaptados al lenguaje de cada marca."
     }
-  ]
+  ],
+  "email": "enriquelarosa123@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/enriquelrg/"
 }
